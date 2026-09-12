@@ -252,8 +252,8 @@ CREATE TABLE IF NOT EXISTS `supply` (
 DELETE FROM `supply`;
 /*!40000 ALTER TABLE `supply` DISABLE KEYS */;
 INSERT INTO `supply` (`supid`, `suppname`, `tel`, `person`, `address`, `emali`) VALUES
-	(16, '百果园', '13800000001', '某总', '吉安永新', 'user1@example.com'),
-	(17, '恰恰', '13800000001', '贺天', '吉安永新', 'user1@example.com'),
+	(16, '百果园', '13800000000', '某总', '吉安永新', 'user1@example.com'),
+	(17, '恰恰', '13800000000', '贺天', '吉安永新', 'user1@example.com'),
 	(18, '花鸟市场', NULL, NULL, NULL, NULL),
 	(19, '怡宝', NULL, NULL, NULL, NULL);
 /*!40000 ALTER TABLE `supply` ENABLE KEYS */;
